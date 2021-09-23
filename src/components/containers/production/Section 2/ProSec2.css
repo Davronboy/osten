@@ -1,0 +1,58 @@
+.prosec2obwiy{
+    padding-top: 100px !important;
+    background-color: white;
+}
+.prosec2title{
+font-weight: 800;
+}
+.prosec2title h1{
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: rgb(9, 21, 45);
+}
+.prosec2chizu{
+    margin: 16px 495px;
+    max-width: 320px;
+    height: 3px !important;
+    background-color: rgb(9, 21, 45) !important;
+   
+}
+/* yozu */
+.MuiTab-wrapper{
+    color: black;
+    font-weight: bold;
+}
+/* yozu */
+/* .MuiTab-wrapper:hover{
+    color: white;
+} */
+/* obwiy */
+.MuiPaper-root{
+    background-color: white !important;
+}
+/* Button */
+/* .MuiTab-textColorInherit:hover{
+    color: white !important;
+} */
+/* Button */
+.Mui-selected{
+background-color: black;
+color: white !important;
+border-radius: 8px;
+}
+.prosec2obwiy .row{
+    padding: 0 !important;
+}
+.prosec2rasmdiv{
+    flex: 1 1 25%;
+    background: rgb(9, 22, 44);
+    margin: 0px 0px 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: rgb(204 204 204) 2px 2px 10px 0px;
+    color: white ;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}

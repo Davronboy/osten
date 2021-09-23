@@ -1,0 +1,32 @@
+.sersec1obwiy{
+    background-image: url("https://osten.vercel.app/images/index/about.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    height: 60vh;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    min-height: 500px;
+}
+.sersec1obwiy::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: "";
+    z-index: 0;
+    background: linear-gradient(
+90deg
+, rgba(9, 21, 45, 0.7) 0%, rgba(9, 21, 45, 0.25) 35%, rgba(0, 212, 255, 0) 100%);
+    /* background: rgb(9, 21, 45); */
+    opacity: 0.5;
+}
+.sersec1title h1{
+    font-size: 60px;
+    text-shadow: rgb(0 0 0) 5px 5px 5px;
+    font-weight: 900;
+}

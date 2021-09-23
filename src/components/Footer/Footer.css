@@ -1,0 +1,101 @@
+.footer{
+    background-color: #09152D;
+    color: white !important;
+}
+.posmotrim2{
+    color: white !important;
+
+}
+
+.footer h1{
+    font-size: 20px !important;
+}
+.posmotrim h1{
+    margin-bottom: 20px !important;
+}
+.endide{
+    padding: 0 15px !important;
+}
+.endide h1{
+    margin-bottom: 20px !important;
+
+}
+.posmotrim p{
+    padding: 4px 0 !important;
+    color: white !important;
+    position: relative;
+}
+.smm{
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.divinsta{
+    transition: 0.3s;
+}
+.divinsta:hover{
+    transform: scaleX(1.2) scaleY(1.2) ;
+    transition: 0.3s;
+}
+.divinsta:hover .divface2{
+    background: #4267B2;
+    color: white !important;
+}
+.divinsta:hover .divinsta2{
+    background: #E1306C;
+    color: white !important;
+}
+.divinsta:hover .divtele2{
+    background: #1DA1F2;
+    color: white !important;
+}
+.divinsta:hover .divyou2{
+    background: #ff0000;
+    color: white !important;
+}
+
+.divinsta:hover .insta{
+    color: white !important;
+}
+.tuda{
+    font-size: 30px;
+    color: black ; 
+   
+   
+}
+.posmotrim p:hover{
+    color: #FEBC22 !important;
+
+}
+.border1::before{
+    content: '';
+    height:2px ;
+    width: 40%;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #fff;
+}
+.border2::before{
+    content: '';
+    height:2px ;
+    width: 80%;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #fff;
+}
+.border3::before{
+    content: '';
+    height:2px ;
+    width: 40%;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #fff;
+}
+.border1::before:hover{
+    color: #FEBC22 !important;
+}
+

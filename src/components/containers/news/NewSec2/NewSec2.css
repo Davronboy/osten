@@ -1,0 +1,39 @@
+.newsec2obwiy{
+    padding-top: 100px;
+   background-color: white;
+}
+.newsec2title h1{
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: rgb(9, 21, 45);
+}
+.newsec2chizu{
+    margin: 16px 495px !important;
+    max-width: 320px;
+    height: 3px !important;
+    background-color: rgb(9, 21, 45) !important;
+   
+}
+
+.newsec2obwiy img{
+    height: 300px;
+    overflow: hidden;
+}
+.newsec2obwiy .shadow{
+    overflow: hidden;
+    margin-top: 25px;
+    border-radius: 10px;
+    /* margin-right: 0 !important; */
+    /* display: block; */
+}
+.newsec2obwiy .row{
+    padding: 0 !important;
+}
+.newsec2obwiy h4{
+    transition: 0.2s;
+
+}
+.newsec2obwiy .col-md-4:hover h4{
+    color:#FEBC22 ;
+    transition: 0.2s;
+}

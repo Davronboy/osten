@@ -1,0 +1,51 @@
+.our{
+    padding: 100px 0;
+}
+.our h1{
+    font-weight: 700;
+}
+.line{
+    max-width: 320px;
+    height: 2px !important;
+    background-color: rgb(0, 0, 0);
+    margin:16px 495px !important;
+   
+}
+hr{
+     margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-sizing: content-box;
+    overflow: visible;
+}
+.icon{
+    width: 64px;
+    height: 64px;
+margin: auto;
+margin-bottom: 24px;
+margin-top: 0 !important;
+
+}
+.row{
+    color: #112045 !important;
+}
+.section2-card{
+    border-radius: 10px !important;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgb(216, 216, 216);
+   
+}
+.ikki{
+    transition: all 0.2s ease-in-out 0s;
+
+}
+.ikki:hover{
+    transform: translateY(-10px);
+ /* transition: all 0.s ease-in-out 0s; */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out 0s;
+}

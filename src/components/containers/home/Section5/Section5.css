@@ -1,0 +1,53 @@
+.section5-obwiy{
+    padding: 100px 0;
+    background-color: white;
+}
+.section5-chizu{
+    margin: 16px 495px;
+    max-width: 320px;
+    height: 10px;
+    font-weight: bold;
+    background-color: black;
+}
+.section5-title h1{
+    font-weight: 700;
+    margin-bottom: 24px !important;
+}
+.section5-div h4{
+font-weight: 600;
+}
+.zdvig{
+    transition: 0.3s;
+}
+.zdvig:hover .section5-icon{
+    color: black;
+   
+}
+.zdvig:hover{
+     cursor: pointer;
+    transform: translateY(-3px);
+transition: 0.3s;
+}
+.carddsygdy{
+    padding: 16px 8px;
+}
+.section5-div p{
+    font-size: 18px !important;
+}
+.circle{
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section5-icon{
+    height: 34px;
+    width: 3em;
+    font-size: 36px;
+    color: rgb(233, 157, 1);
+}

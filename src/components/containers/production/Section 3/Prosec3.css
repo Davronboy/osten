@@ -1,0 +1,51 @@
+.prosec3obwiy{
+    padding:100px 0 ;
+    background-color: white;
+}
+
+
+
+.prosec3title h1{
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: rgb(9, 21, 45);
+}
+.prosec3chizu{
+    margin: 16px 495px !important;
+
+    max-width: 320px;
+    height: 1px;
+    background-color: rgb(9, 21, 45);
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 500px;
+    object-fit: cover;
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 2px 2px 7px);  cursor: pointer;
+}

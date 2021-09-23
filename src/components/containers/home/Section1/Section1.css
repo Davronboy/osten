@@ -1,0 +1,73 @@
+.photo{
+    background-image: url("https://osten.vercel.app/images/index/home.jpg") ;
+    
+    background-position: center top;
+    background-attachment: fixed;
+    box-shadow: rgb( 0 0 0 / 30%) 0px -10px 0px 0 inset;
+    display: flex;
+    align-items: center;
+    mix-blend-mode: darken !important;
+    overflow: hidden;
+    width: 100% !important;
+    height: 100vh !important;
+background-size: cover;
+opacity: 1;
+position: relative;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+
+}
+.photo::before{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+90deg
+, rgba(9, 21, 45, 0.9) 0%, rgba(239, 239, 240, 0.525) 15%, rgb(255, 255, 255) 100%);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: "";
+    z-index: 0;
+}
+.container{
+    z-index: 100;
+    
+}
+.photo::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: "";
+    background: rgb(20, 20, 20);
+    opacity: 0.5;
+}
+.photo a{
+    transition: 0.2s;
+
+}
+.photo a:hover{
+    background: #ffb623 !important;
+    transition: 0.2s;
+
+}
+.main-photo h1{
+    font-size: 56px !important;
+    color: white;
+    font-weight: 700;
+}
+.main-photo p{
+margin-top: 10px ;
+margin-bottom: 30px;
+color: white;
+font-size: 22px;
+}
+.main-photo a{
+    padding: 10px 20px !important;
+    color: white !important;
+   
+    font-size: 20px;
+    font-weight: bold;
+    background: #E99D01 !important;
+}
