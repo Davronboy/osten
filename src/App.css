@@ -1,3 +1,27 @@
 .logo{
   height: 40px;
 }
+.dark-mode{
+  background-color: #1a1919;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.25s ease-in-out;
+}
+.light-mode{
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.25s ease-in-out;
+
+}
+.switch{
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 14px;
+  
+}
+.xullasbutton{
+  position: absolute;
+  top: 2%;
+  left: 0;
+  z-index: 100;
+}
