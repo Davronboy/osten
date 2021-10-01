@@ -7,7 +7,7 @@ const SerSec1 = () => {
     <div className="sersec1obwiy">
       <div className="container ">
         <div className="sersec1title">
-          <h1>Услуги</h1>
+          <h1>УСЛУГИ</h1>
         </div>
       </div>
     </div>

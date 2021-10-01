@@ -4,11 +4,41 @@
 }
 .manuafcsec2title h1{
     font-weight: 700;
-    margin-bottom: 24px;
+    margin-bottom: 24px !important;
     color: rgb(9, 21, 45);
 }
+.manuspan{
+    font-size: 16px;
+    font-weight: 500;
+}
 .manufacsec2liniya{
-    max-width: 320px;
-    height: 1px !important;
-    background-color: rgb(9, 21, 45);
+    margin: 16px 495px;
+  max-width: 320px;
+  height: 10px;
+  font-weight: bold;
+  background-color: black;
+}
+.manufacsec2title{
+    margin-bottom: 30px !important;
+}
+.prosec2qaysidur p{
+    font-size: 18px;
+}
+.borderprob{
+    border: none !important;
+}
+.prosec2qaysidur{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.manurasm{
+    margin: 10px 0;
+}
+.manulist{
+    transition: 0.3s;
+}
+.manulist:hover{
+    background-color: #007BFF;
+    color: white !important;
+    transition: 0.3s;
+
 }

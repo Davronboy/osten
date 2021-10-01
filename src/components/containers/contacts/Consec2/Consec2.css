@@ -1,13 +1,13 @@
-.consec2obwiy{
+.contactssec2obwiy{
     padding: 100px 0;
     background-color: white;
 }
-.consec2title h1{
+.constacts2title h1{
     font-weight: 700;
     margin-bottom: 24px;
     color: rgb(9, 21, 45);
 }
-.consec2chizu{
+.contactssec2chizu{
     margin: 16px 495px !important;
     max-width: 320px;
     height: 3px !important;
@@ -26,7 +26,7 @@
 .form{
     display:block;
 }
-.consec2obwiy a{
+.contactssec2obwiy a{
     font-weight: 700;
     padding: 10px 20px;
     font-size: 18px;
@@ -34,4 +34,12 @@
     border: 0px;
     color: white !important;
     background-color: rgb(233, 157, 1);
+}
+.nomde{
+    padding: 0;
+}
+textarea{
+    height: auto !important;
+    overflow: hidden;
+    resize: vertical;
 }

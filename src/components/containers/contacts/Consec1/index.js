@@ -1,17 +1,17 @@
-import "./Consec1.css";
-
 import React from "react";
-
-const Consec1 = () => {
+import "./Consec1.css";
+const ContactSec1 = () => {
   return (
-    <div className="consec1obwiy">
-      <div className="container">
-        <div className="consec1title">
-          <h1>Контакты</h1>
+    <div>
+      <div className="contactssec1obwiy">
+        <div className="container">
+          <div className="contactssec1title text-white">
+            <h1>КОНТАКТЫ</h1>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Consec1;
+export default ContactSec1;

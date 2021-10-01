@@ -26,7 +26,7 @@ header button{
 }
 
 .next{
-    background-color: transparent;
+    /* background-color: transparent; */
     padding: 10px 15px;
     z-index: 10001;
 }
@@ -53,6 +53,10 @@ height: 70px;
     background-color: white;
     overflow-y: auto;
     overflow-x: hidden;
+    transition: 0.3s;
+}
+.mobile:hover{
+    transition: 0.3s;
 }
 .inner-menu {
     position: relative;
@@ -64,16 +68,10 @@ height: 70px;
 }
    .skritiy{
        padding-top: 80px;
-       /* padding-top: 80px;
-       padding-bottom: 10px;
-       padding-left: 20px;
-       padding-right: 20px; */
        height: 100%;
        text-align: center;
-    
-   }
- 
-   .skritiy a{
+}
+.skritiy a{
        padding: 10px 20px ;
        font-size: 20px !important;
    }
@@ -91,10 +89,7 @@ color: #FEBC22 !important;
 }
 #main{
 color: #FEBC22 !important;
-
-
 }
-
 .ulcha{
     margin-bottom: 0 !important;
     margin-top: 5px;
@@ -108,15 +103,10 @@ color: #FEBC22 !important;
 .ulcha a{
     padding: 8px 0 !important;
 }
-/* .ulcha a:active{
-    color: #FEBC22;
-
-} */
 .logo{
     width: 107px;
     height: 30px;
 }
-
 .href::after{
     content: '';
     height:2px ;

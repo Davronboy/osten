@@ -7,7 +7,7 @@ const ConstrucSec1 = () => {
     <div className="construcsec1obwiy">
       <div className="container">
         <div className="construcsec1title">
-          <h1>Конструктор</h1>
+          <h1>КОНСТРУКТОР</h1>
         </div>
       </div>
     </div>

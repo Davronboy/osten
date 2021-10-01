@@ -7,7 +7,7 @@ const NewSec1 = () => {
     <div className="newsec1obwiy">
       <div className="container">
         <div className="newsec1title">
-          <h1>Новости</h1>
+          <h1>НОВОСТИ</h1>
         </div>
       </div>
     </div>

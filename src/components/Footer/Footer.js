@@ -21,7 +21,7 @@ const Footer = () => {
               «Osten» — уникальный производитель, лифтов и эскалаторов в Средней
               Азии Компания «Osten» была основана в 2019 году!
             </p>
-            <h1>МЫ В СОЦЮСЕТЯХ:</h1>
+            <h1>МЫ В СОЦ.СЕТЯХ:</h1>
             <div className="social-icons d-flex">
               <Link to="" className="tavakal1 divinsta">
                 {" "}

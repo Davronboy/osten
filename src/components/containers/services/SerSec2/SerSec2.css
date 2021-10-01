@@ -14,3 +14,20 @@
     font-weight: bold;
     background-color: black;
 }
+.serverspan{
+    font-size: 16px;
+    font-weight: 500;
+}
+.ser2span{
+    font-size: 18px;
+}
+.sersec2qaysidur{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sersec2qaysidur p{
+    font-size: 18px;
+}
+.sersec2qaysidur ul li{
+    font-size: 16px;
+    margin-left: 36px;
+}

@@ -1,0 +1,115 @@
+.construcsec2obwiy{
+    padding: 100px 0;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.construcsec2title h1{
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: rgb(9, 21, 45);
+}
+.construcsec2chizu{
+    margin: 16px 495px !important;
+    max-width: 320px;
+    height: 3px !important;
+    background-color: rgb(9, 21, 45) !important;
+   
+}
+.construcsec2title2{
+margin-bottom: 50px;
+color: black !important;
+}
+.construcsec2title2 h1{
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.construcsec2title2 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.divforlift{
+    position: sticky;
+    top: 90px;
+}
+.lift-div{
+    position: relative;
+    width: 90%;
+}
+.lift-div img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+}
+.construcsec2title2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.construcsec2title2 ul li{
+   height: 90px ;
+    margin: 5px;
+    box-shadow: rgb(0 0 0 / 13%) 0px 1px 4px 0px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+    
+}
+.construcsec2title2 ul li img{
+    width: auto;
+    height: 100%;
+   transition: 0.3s;
+
+}
+
+.koroceimg:hover{
+       transform: scaleX(1.1) scaleY(1.1);
+      transition: 0.3s;  
+}
+.koroceimg2:hover{
+    transform: scaleX(1.1) scaleY(1.1);
+    transition: 0.3s;  
+    box-shadow: 0 0 2px 0 rgb(94, 93, 93);
+    outline: 0 !important;
+}
+.construcsec2title3{
+    margin-bottom: 50px;
+    color: black !important;
+    }
+.construcsec2title3 ul li{
+    display: inline-block !important;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: white;
+    padding: 30px  !important;
+
+    height: 90px ;
+    margin: 5px;
+    box-shadow: rgb(0 0 0 / 13%) 0px 1px 4px 0px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+}
+.form-group label{
+    font-size: 16px;
+}
+.justlinkde a{
+    padding: 10px 20px !important;
+    color: white !important;
+    transition: 0.2s;
+   
+    font-size: 20px;
+    font-weight: bold;
+    background: #E99D01 !important;
+}
+.justlinkde a:hover{
+    background: #ffb623 !important;
+    transition: 0.2s;
+
+}
