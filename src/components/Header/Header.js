@@ -19,6 +19,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //     { to: "/123", title: "123" },
 
 const Header = () => {
+  function myFunction(x) {
+    x.target.classList.toggle("change");
+  }
   const [isShow, setIsShow] = useState(false);
   const toggleMenu = () => {
     setIsShow(!isShow);
@@ -35,6 +38,15 @@ const Header = () => {
         >
           <FaIcons.FaBars className="barcha mb-1" />
         </Button>
+        <div
+          class="working d-xl-none "
+          onClick={(toggleMenu, myFunction(this))}
+        >
+          <div class="bar1 "></div>
+          <div class="bar2 "></div>
+          <div class="bar3 "></div>
+        </div>
+
         {/* <Header2 /> */}
         <div
           className={`div d-xxl-none align-items-center ${

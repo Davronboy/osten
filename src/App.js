@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Switch, Route, Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
-
 import Header from "./components/Header";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";

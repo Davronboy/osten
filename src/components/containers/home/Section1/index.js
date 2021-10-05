@@ -11,7 +11,7 @@ const Section1 = () => {
         {/* <img src={logo} alt="" className="w-100" /> */}
 
         <div className="photo">
-          <div className="container py-5 main-photo">
+          <div className="container py-5 main-photo ">
             <h1 className="fs-1 fw-bold">
               «Osten» — уникальный производитель, лифтов и эскалаторов в Средней
               Азии
