@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import { Button } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Header2 from "../Header2";
+// import * as AiIcons from "react-icons/ai";
 // const data = [
 //     { to: "/", title: "Home", id: "main" },
 //     { to: "/about", title: "About" },
@@ -19,45 +19,40 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //     { to: "/123", title: "123" },
 
 const Header = () => {
-  function myFunction(x) {
-    x.target.classList.toggle("change");
-  }
-  const [isShow, setIsShow] = useState(false);
-  const toggleMenu = () => {
-    setIsShow(!isShow);
-  };
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => setSidebar(!sidebar);
+
+  // const [isShow, setIsShow] = useState(false);
+  // const toggleMenu = () => {
+  //   setIsShow(!isShow);
 
   return (
     <header className="App-header shadow">
       <div className="container py-3 d-flex justify-content-between align-items-center">
         <img src={logo} alt="" className="App-logo logo" />
         <Button
-          type="button"
           className="next btn btn-warning d-xl-none"
-          onClick={toggleMenu}
+          onClick={showSidebar}
         >
           <FaIcons.FaBars className="barcha mb-1" />
         </Button>
         <div
-          class="working d-xl-none "
-          onClick={(toggleMenu, myFunction(this))}
-        >
-          <div class="bar1 "></div>
-          <div class="bar2 "></div>
-          <div class="bar3 "></div>
-        </div>
-
-        {/* <Header2 /> */}
-        <div
-          className={`div d-xxl-none align-items-center ${
-            isShow ? "mobile" : "d-none"
-          }`}
+          className={
+            sidebar
+              ? "div d-xxl-none align-items-center mobile active"
+              : "mobile"
+          }
+          // className={`div d-xxl-none align-items-center ${
+          //   isShow ? "mobile" : "d-none"
+          // }`}
           id="menu"
         >
-          <ul className="skritiy inner-menu" id="menu2">
+          <ul className="skritiy inner-menu" id="menu2" onClick={showSidebar}>
             <li>
               {" "}
               <Link to="/" className="main">
+                {/* <AiIcons.AiFillHome className="me-2" /> */}
                 ГЛАВНАЯ
               </Link>{" "}
             </li>
@@ -149,5 +144,4 @@ const Header = () => {
     </header>
   );
 };
-
 export default Header;

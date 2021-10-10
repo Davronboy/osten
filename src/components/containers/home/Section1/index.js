@@ -2,7 +2,6 @@ import "./Section1.css";
 
 import React from "react";
 import { Link } from "react-router-dom";
-// import logo from './home.section1.jpg'
 
 const Section1 = () => {
   return (
@@ -12,7 +11,7 @@ const Section1 = () => {
 
         <div className="photo">
           <div className="container py-5 main-photo ">
-            <h1 className="fs-1 fw-bold">
+            <h1 className="fs-1 fw-bold" data-aos="fade-left">
               «Osten» — уникальный производитель, лифтов и эскалаторов в Средней
               Азии
             </h1>

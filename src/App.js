@@ -14,7 +14,6 @@ import News from "./components/pages/News";
 import Contacts from "./components/pages/Contacts";
 import Page404 from "./components/pages/Page404";
 import Footer from "./components/Footer/Footer";
-
 // import { styled } from "@mui/material/styles";
 // import Switch from "@mui/material/Switch";
 // import FormGroup from "@mui/material/FormGroup";
