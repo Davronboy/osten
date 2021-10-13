@@ -36,6 +36,9 @@
 .manulist{
     transition: 0.3s;
 }
+.prosec2qaysidur p{
+    color: #212529 !important;
+}
 .manulist:hover{
     background-color: #007BFF;
     color: white !important;

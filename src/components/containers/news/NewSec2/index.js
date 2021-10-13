@@ -1,5 +1,4 @@
 import "./NewSec2.css";
-
 import React from "react";
 
 const NewSec2 = () => {

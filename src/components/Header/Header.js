@@ -5,28 +5,34 @@ import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import { Button } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import * as AiIcons from "react-icons/ai";
-// const data = [
-//     { to: "/", title: "Home", id: "main" },
-//     { to: "/about", title: "About" },
-//     { to: "/manufaction", title: "Manufaction" },
-//     { to: "/services", title: "Services" },
-//     { to: "/production", title: "Production" },
-//     { to: "/constructor", title: "Constructor" },
-//     { to: "/news", title: "News" },
-//     { to: "/contacts", title: "Contacts" },
-
-//     { to: "/123", title: "123" },
 
 const Header = () => {
+  const [appState, changeState] = useState({
+    activeObject: null,
+    objects: [
+      { to: "/", title: "ГЛАВНАЯ", cName: "main", id: 1 },
+      { to: "/about", title: "О НАС", cName: "href", id: 2 },
+      { to: "/manufaction", title: "ПРОИЗВОДСТВО", cName: "href", id: 3 },
+      { to: "/services", title: "УСЛУГИ", cName: "href", id: 4 },
+      { to: "/production", title: "ПРОДУКЦИЯ", cName: "href", id: 5 },
+      { to: "/constructor", title: "КОНСТРУТОР", cName: "href", id: 6 },
+      { to: "/news", title: "НОВОСТИ", cName: "href", id: 7 },
+      { to: "/contacts", title: "КОНТАКТЫ", cName: "href", id: 8 },
+    ],
+  });
+  const toggleActive = (index) => {
+    changeState({ ...appState, activeObject: appState.objects[index] });
+  };
+  const toggleActiveStyles = (index) => {
+    if (appState.objects[index] === appState.activeObject) {
+      return "main href active";
+    } else {
+      return "main href inactive";
+    }
+  };
+
   const [sidebar, setSidebar] = useState(false);
-
   const showSidebar = () => setSidebar(!sidebar);
-
-  // const [isShow, setIsShow] = useState(false);
-  // const toggleMenu = () => {
-  //   setIsShow(!isShow);
-
   return (
     <header className="App-header shadow">
       <div className="container py-3 d-flex justify-content-between align-items-center">
@@ -43,102 +49,52 @@ const Header = () => {
               ? "div d-xxl-none align-items-center mobile active"
               : "mobile"
           }
-          // className={`div d-xxl-none align-items-center ${
-          //   isShow ? "mobile" : "d-none"
-          // }`}
           id="menu"
         >
           <ul className="skritiy inner-menu" id="menu2" onClick={showSidebar}>
-            <li>
-              {" "}
-              <Link to="/" className="main">
-                {/* <AiIcons.AiFillHome className="me-2" /> */}
-                ГЛАВНАЯ
-              </Link>{" "}
-            </li>
-            <li>
-              {" "}
-              <Link to="/about">О НАС</Link>{" "}
-            </li>
-            <li>
-              {" "}
-              <Link to="/manufaction">ПРОИЗВОДСТВО</Link>{" "}
-            </li>
-            <li>
-              {" "}
-              <Link to="/services">УСЛУГИ</Link>{" "}
-            </li>
-            <li>
-              {" "}
-              <Link to="/production">ПРОДУКЦИЯ</Link>{" "}
-            </li>
-            <li>
-              {" "}
-              <Link to="/constructor">КОНСТРУКТОР</Link>{" "}
-            </li>
-            <li>
-              {" "}
-              <Link to="/news">НОВОСТИ</Link>{" "}
-            </li>
-            <li>
-              {" "}
-              <Link to="/contacts">КОНТАКТЫ</Link>{" "}
-            </li>
+            {appState.objects.map((v, index) => (
+              <li key={index}>
+                {" "}
+                <Link
+                  to={v.to}
+                  className={toggleActiveStyles(index)}
+                  id={v.id}
+                  onClick={() => {
+                    toggleActive(index);
+                  }}
+                >
+                  {v.title}
+                </Link>{" "}
+              </li>
+            ))}
           </ul>
         </div>
         <ul className="d-flex d-xl-flex d-md-none d-none ulcha">
           {/* 1 - variant */}
-          {/* {data.map(v => <li> <Link to={v.to} className="ms-3"></Link> </li>)} */}
+          {appState.objects.map((v, index) => (
+            <li key={index}>
+              {" "}
+              <Link
+                to={v.to}
+                className={toggleActiveStyles(index)}
+                id={v.id}
+                onClick={() => {
+                  toggleActive(index);
+                }}
+              >
+                {v.title}
+              </Link>{" "}
+            </li>
+          ))}
 
           {/* 2 - variant */}
-          <li>
+          {/* <li>
             {" "}
             <Link to="/" className="act" id="main">
               ГЛАВНАЯ
             </Link>{" "}
           </li>
-          <li>
-            {" "}
-            <Link to="/about" className="href">
-              О НАС
-            </Link>{" "}
-          </li>
-          <li>
-            {" "}
-            <Link to="/manufaction" className="href">
-              ПРОИЗВОДСТВО
-            </Link>{" "}
-          </li>
-          <li>
-            {" "}
-            <Link to="/services" className="href">
-              УСЛУГИ
-            </Link>{" "}
-          </li>
-          <li>
-            {" "}
-            <Link to="/production" className="href">
-              ПРОДУКЦИЯ
-            </Link>{" "}
-          </li>
-          <li>
-            {" "}
-            <Link to="/constructor" className="href">
-              КОНСТРУКТОР
-            </Link>{" "}
-          </li>
-          <li>
-            {" "}
-            <Link to="/news" className="href">
-              НОВОСТИ
-            </Link>{" "}
-          </li>
-          <li>
-            {" "}
-            <Link to="/contacts" className="href">
-              КОНТАКТЫ
-            </Link>{" "}
-          </li>
+         */}
         </ul>
       </div>
     </header>

@@ -108,10 +108,13 @@ color: #FEBC22 !important;
 color: #FEBC22 !important;
     
 }
-#main{
-color: #FEBC22 !important;
-}
+.active{
+color: #FEBC22 ;
 
+}
+.inactive{
+    color: black !important;
+}
 .ulcha{
     margin-bottom: 0 !important;
     margin-top: 5px;
