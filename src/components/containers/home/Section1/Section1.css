@@ -10,11 +10,11 @@
     overflow: hidden;
     width: 100% !important;
     height: 100vh !important;
-background-size: cover;
-opacity: 1;
-position: relative;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
 
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 
 }
 .photo::before{
