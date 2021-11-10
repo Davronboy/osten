@@ -36,10 +36,14 @@
 
 }
 .sersec2qaysidur span{
-    color: #212529 !important;
+    color: #212529 ;
 
 }
 .sersec2qaysidur ul{
-    color: #212529 !important;
+    color: #212529 ;
 
 }
+.manulist:hover .serverspan{
+color: white !important;
+}
+
